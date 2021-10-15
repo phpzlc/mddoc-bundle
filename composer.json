@@ -1,0 +1,29 @@
+{
+    "name": "phpzlc/mddoc-bundle",
+    "description": "github markdown repository generates multi-version documents.",
+    "homepage": "https://phpzlc.com/doc/mddoc-bundle",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "phpzlc", "symfony-bundle", "document", "github", "markdown", "multi-version"
+    ],
+    "support": {
+        "email": "1044295598@qq.com"
+    },
+    "authors": [
+        {
+            "name": "CJayHe",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PHPZlc\\MdDoc\\": ["src"]
+        }
+    },
+    "require": {
+        "symfony/framework-bundle": ">=4.4",
+        "knplabs/github-api": "2.*"
+    }
+}
+

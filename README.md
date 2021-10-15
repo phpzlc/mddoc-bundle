@@ -1,2 +1,3 @@
 # mddoc-bundle
-github md repository generates multi-version documents
+
+github markdown repository generates multi-version documents
