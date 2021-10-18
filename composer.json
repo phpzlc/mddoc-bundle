@@ -23,7 +23,8 @@
     },
     "require": {
         "symfony/framework-bundle": ">=4.4",
-        "knplabs/github-api": "2.*"
+        "knplabs/github-api": "2.*",
+        "php-http/guzzle6-adapter": "2.*"
     }
 }
 
