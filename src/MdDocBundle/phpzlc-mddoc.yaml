@@ -1,0 +1,6 @@
+services:
+    # 生成文档命令
+    phpzlc.mddoc.generate:
+        class:  PHPZlc\MdDoc\MdDocBundle\Command\GenerateCommand
+        tags: [console.command]
+        arguments: ['@database_connection']
